@@ -1,0 +1,22 @@
+#canvas{
+    float: left;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+#canvas div{
+    width: 30px;
+    height: 30px;
+    border: 1px dotted black;
+    float: left;
+}
+#canvas div:nth-child(8n+1){
+    clear: both;
+}
+.active{
+    /*transform: rotate(15deg);*/
+    box-shadow: 2px 2px whitesmoke inset,
+    -2px -2px whitesmoke inset,
+    2px -2px whitesmoke inset,
+    -2px 2px whitesmoke inset;
+    z-index: 100;
+}
