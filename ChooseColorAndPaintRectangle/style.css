@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+#chooseColor div{
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+    border: 1px dotted black;
+    float: left;
+    transition-duration: 0.2s;
+}
+#chooseColor div:hover{
+    transform: scale(1.1);
+}
+#chooseColor div:nth-child(1){
+    background-color: lightpink;
+}
+#chooseColor div:nth-child(2){
+    background-color: lightcoral;
+}
+#chooseColor div:nth-child(3){
+    background-color: darkred;
+}
+#chooseColor div:nth-child(4){
+    background-color: lightgoldenrodyellow;
+}
+#chooseColor div:nth-child(5){
+    background-color: lightgreen;
+}
+#chooseColor div:nth-child(6){
+    background-color: darkgreen;
+}
+#chooseColor div:nth-child(8){
+    background-color: blue;
+}
+#chooseColor div:nth-child(9){
+    background-color: darkblue;
+}
+#chooseColor div:nth-child(3n+1){
+    clear: left;
+}
+#rectangle{
+    width: 600px;
+    height: 150px;
+    background-color: plum;
+    border: 1px dotted black;
+    margin-left: 250px;
+}
+
+.chooseElem{
+    transform: rotate(15deg);
+}
