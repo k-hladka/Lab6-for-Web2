@@ -1,0 +1,13 @@
+#parent div{
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 5px;
+    background: greenyellow;
+    float: left;
+    border-radius: 23px;
+    transition-duration: 3s;
+}
+#parent div:hover{
+    cursor: pointer;
+}
