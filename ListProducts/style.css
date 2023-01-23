@@ -1,0 +1,38 @@
+*{
+    font-size: 1.1rem;
+    font-family: Arial sans-serif;
+}
+caption{
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+}
+table, td{
+    border: 1px dotted blue;
+    border-collapse: collapse;
+    width: 15%;
+}
+table{
+    margin-bottom: 15px;
+}
+td{
+    padding: 0 5px 5px 0;
+}
+button{
+    border-radius: 0;
+    background: linear-gradient(rgb(0 0 0 / 15%), rgb(35 192 247 / 24%));
+    border: 1px solid blue;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+#clear{
+    background: linear-gradient(rgb(249 139 139 / 15%), rgb(247 35 35 / 24%));
+    border: 1px solid red;
+    margin-left: 20%;
+}
+output{
+    margin-left: 5px;
+}
