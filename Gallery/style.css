@@ -1,0 +1,33 @@
+.parent {
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+    flex-wrap: wrap;
+}
+
+.parent > div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.parent > div:nth-of-type(1) {
+    background: url('../img/spriteAesthetics.png');
+}
+
+.parent > div:nth-of-type(2) {
+    background: url('../img/spriteAesthetics.png') 100px 0;
+}
+
+.parent > div:nth-of-type(3) {
+    background: url('../img/spriteAesthetics.png') 200px 0;
+}
+
+.parent > .note {
+    height: auto;
+    background: lightgray;
+    opacity: 0.9;
+    position: absolute;
+    color: green;
+    display: none;
+}
